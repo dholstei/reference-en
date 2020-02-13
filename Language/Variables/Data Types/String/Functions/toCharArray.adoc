@@ -30,7 +30,7 @@ Copies the String's characters to the supplied buffer.
 [float]
 === Parameters
 `myString`: a variable of type `String`. +
-`buf`: the buffer to copy the characters into. Allowed data types: array of `char`. +
+`buf`: the buffer to copy the characters into. Allowed data types: array of `char`. NOTE: Buffer must be sized at least as large as `myString`, otherwise the function returns without modifying the buffer.  +
 `len`: the size of the buffer. Allowed data types: `unsigned int`.
 
 
